@@ -2,7 +2,8 @@
 members = [
     'runtime',
     'substrate-sgx/sp-io',
-    'substrate-sgx/externalities'
+    'substrate-sgx/externalities',
+    'substrate-sgx/debug-derive',
 ]
 [profile.release]
 panic = 'unwind'
